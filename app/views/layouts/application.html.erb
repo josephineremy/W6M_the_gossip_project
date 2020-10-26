@@ -6,7 +6,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -18,8 +17,40 @@
   </head>
 
   <body>
-    <%= yield %>
-    <!-- JQuery -->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">Gossip 3.0</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <%= link_to "Accueil", root_path, class: "nav-link" %>
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Equipe", equipe_path, class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Contact", contact_path, class: "nav-link" %>
+      </li>
+  </ul>
+</div>
+<!--/.Navbar-->
+    </nav>
+
+  <%= yield %>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>

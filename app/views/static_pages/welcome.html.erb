@@ -1,0 +1,14 @@
+<br><div class="text-center"><h1>Bienvenue à toi <%= @user %>!</h1></div>
+<div class="text-center">Découvre ci-dessous ce qu'on dit quelques nerds et n'hésite pas à explorer leurs gossips.</div><br><br>
+
+<% @gossips.each do |gossip| %>
+<div class="card">
+  <h5 class="card-header h5">Gossip n°<%=gossip.id%></h5>
+  <div class="card-body">
+    <h5 class="card-title"><%=gossip.user.first_name%> <%=gossip.user.last_name%></h5>
+    <p class="card-text font-italic"><%= gossip.title %></p>
+    <%= link_to "Voir le gossip", gossip_path(gossip.id)%>
+  </div>
+</div>
+<% end %>
+<br><div class="text-center"><%= link_to "Vas donc voir ces fameux petits potins", root_path %></div>
