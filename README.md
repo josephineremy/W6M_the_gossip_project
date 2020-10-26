@@ -7,6 +7,7 @@ Bienvenue dans le programme Gossip 3.0, la version upgradée du site où les ner
 -La page individuelle user: Vous serez orienté vers la page individuelle de l'auteur sélectionné et vous pourrez naviger entre ses informations personnelles, sa description et ses gossips (--> http://localhost:3000/user/:id/)
 
 
+
 ## Instructions
 $ git clone </br>
 $ bundle install </br>
