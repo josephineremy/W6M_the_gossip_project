@@ -2,7 +2,7 @@
 Bienvenue dans le programme Gossip 3.0, la version upgradée du site où les nerds se défoulent et racontent des folies.
 
 ## Pages à explorer
--La page de bienvenue: la page qui vous accueille sur le site en y inscrivant votre nom (--> http://localhost:3000/welcome/tonprenom)</br>
+-La page de bienvenue: la page qui vous accueille sur le site en y inscrivant votre nom. Vous trouverez un accueil personnalisé et une liste de gossips de la base de données (seulement l'auteur et le titre) avec un lien vers les pages individuelles des gossips (--> http://localhost:3000/welcome/tonprenom)</br>
 -La page d'accueil: la page principale où vous pourrez trouver tous les gossips dans la base de données et vous diriger vers les pages spécifiques pour chaque gossip (--> http://localhost:3000/). N'hésitez pas d'ores et déjà à parcourir tout le site en cliquant sur chaque lien. </br>
 -La page individuelle gossip: Vous serez orienté vers la page individuelle du gossip sélectionné et vous pourrez en fin de page avoir plus d'informations sur l'auteur du gossip (--> http://localhost:3000/gossip/:id/)</br>
 -La page individuelle user: Vous serez orienté vers la page individuelle de l'auteur sélectionné et vous pourrez naviger entre ses informations personnelles, sa description et ses gossips (--> http://localhost:3000/user/:id/)</br>
