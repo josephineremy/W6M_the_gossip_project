@@ -1,24 +1,15 @@
-# README
+## Présentation
+Bienvenue dans le programme Gossip 3.0, la version upgradée du site où les nerds se défoulent et racontent des folies.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Pages à explorer
+-La page d'accueil
 
-Things you may want to cover:
 
-* Ruby version
+## Instructions
+$ git clone </br>
+$ bundle install </br>
+$ rails db:migrate
+$ rails db:seed
+$ rails server
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+--> Vas sur le navigateur de ton choix et dirige-toi sur l'adresse: http://localhost:3000/ </br>
