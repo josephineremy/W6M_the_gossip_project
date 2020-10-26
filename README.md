@@ -2,7 +2,8 @@
 Bienvenue dans le programme Gossip 3.0, la version upgradée du site où les nerds se défoulent et racontent des folies.
 
 ## Pages à explorer
--La page d'accueil
+-La page d'accueil: la page principale où vous pourrez trouver tous les gossips dans la base de données et vous diriger vers les pages spécifiques pour chaque gossip (--> http://localhost:3000/). N'hésitez pas d'ores et déjà à parcourir tout le site en cliquant sur chaque lien
+-La page individuelle gossip: Vous serez orienté vers la page individuelle du gossip sélectionné et vous pourrez en fin de page avoir plus d'informations sur l'auteur du gossip (--> http://localhost:3000/gossips/:id/)
 
 
 ## Instructions
